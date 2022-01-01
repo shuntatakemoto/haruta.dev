@@ -18,6 +18,9 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "eslint-plugin-svelte3": "^3.2.1",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.5.1",
     "sirv-cli": "^1.0.0"
   }
 }
