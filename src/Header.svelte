@@ -20,13 +20,13 @@ header {
   width: 160px;
   height: 160px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 20%;
 }
 </style>
 
 <header>
   <a href="/" class="header-link">
-    <h1 class="header-title">haruta.dev</h1>
+    <h1 class="header-title">haruta-8.dev</h1>
   </a>
   <div class="header-profile">
     <img src="/haruta.JPG" alt="" class="header-image" />

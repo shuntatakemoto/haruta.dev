@@ -6,7 +6,7 @@ main {
 .link-list {
   list-style: none;
   font-size: x-large;
-  font-family: "Comic Sans MS", cursive;
+  font-family: "Comic Sans MS";
 }
 
 /* @media (min-width: 640px) {
