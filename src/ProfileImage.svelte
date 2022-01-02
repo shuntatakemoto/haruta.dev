@@ -4,18 +4,48 @@
     opacity: 1;
     transform: none;
   }
+  11% {
+    opacity: 1;
+  }
+  11.4% {
+    opacity: 0;
+  }
+  11.8% {
+    opacity: 1;
+  }
+  12.2% {
+    opacity: 0;
+  }
+  12.6% {
+    opacity: 1;
+  }
+  13.8% {
+    transform: none;
+    filter: invert(0%);
+  }
+  14.3% {
+    transform: skewY(10deg) translate(10px, -6px);
+  }
+  14.6% {
+    transform: skewY(-22deg) translate(-5px, 8px);
+    filter: invert(100%);
+  }
+  14.9% {
+    transform: none;
+    filter: invert(0%);
+  }
   33% {
     transform: none;
     filter: invert(0%);
   }
   33.3% {
     opacity: 1;
-    transform: skewY(20deg) translate(8px, 6px);
+    transform: skewY(30deg) translate(16px, 12px);
     filter: invert(100%);
   }
   33.6% {
     opacity: 0;
-    transform: skewY(-10deg) translate(-10px, -10px);
+    transform: skewY(-20deg) translate(-20px, -20px);
   }
   33.9% {
     opacity: 1;
@@ -43,12 +73,12 @@
   }
   66.3% {
     opacity: 1;
-    transform: skewX(5deg) translate(-4px, 10px);
+    transform: skewX(10deg) translate(-8px, 20px);
     filter: invert(100%);
   }
   66.6% {
     opacity: 0;
-    transform: skewX(-7deg) translate(4px, -6px);
+    transform: skewX(-14deg) translate(8px, -12px);
   }
   66.9% {
     opacity: 1;
@@ -58,10 +88,10 @@
     transform: none;
   }
   77.3% {
-    transform: skewY(10deg) translate(10px, -6px);
+    transform: skewY(20deg) translate(20px, -12px);
   }
   77.6% {
-    transform: skewY(-22deg) translate(-5px, 8px);
+    transform: skewY(-44deg) translate(-10px, 16px);
     filter: invert(100%);
   }
   77.9% {
@@ -80,7 +110,7 @@
   padding: 4rem 0;
 }
 .glitch {
-  animation: glitch_effect 1.5s infinite;
+  animation: glitch_effect 8s infinite;
 }
 .profile-image {
   width: 200px;
