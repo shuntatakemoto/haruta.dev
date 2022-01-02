@@ -17,6 +17,12 @@ body {
   min-height: 100vh;
 }
 
+@supports (-webkit-touch-callout: none) {
+  body {
+    min-height: -webkit-fill-available;
+  }
+}
+
 a {
   color: rgb(0, 100, 200);
   text-decoration: none;
