@@ -10,7 +10,7 @@ header {
   display: flex;
   align-items: center;
   font-size: xx-large;
-  font-family: "Comic Sans MS", cursive;
+  font-family: "Comic Sans MS", "Marker Felt";
   text-decoration: none;
 }
 .header-profile {
