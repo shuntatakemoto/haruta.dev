@@ -9,4 +9,10 @@ const routesNav = [
     },
   ];
   
-  export { routesNav }
+const externalNav=[
+  {name:"Github",path:"https://github.com/shuntatakemoto"},
+  {name:"Twitter",path:"https://twitter.com/haruta_8_"},
+  {name:"Zenn",path:"https://zenn.dev/shuntatakemoto"},
+]
+
+  export { routesNav,externalNav }

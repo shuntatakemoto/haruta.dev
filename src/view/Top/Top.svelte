@@ -11,7 +11,7 @@ main {
 
 <script>
 import { link } from "svelte-spa-router";
-import { routesNav } from "../../constants/index";
+import { routesNav, externalNav } from "../../constants/index";
 import ProfileImage from "../../components/ProfileImage.svelte";
 </script>
 
@@ -25,8 +25,13 @@ import ProfileImage from "../../components/ProfileImage.svelte";
         </a>
       </p>
     {/each}
-    <p><a href="https://github.com/shuntatakemoto">Github</a></p>
-    <p><a href="https://twitter.com/haruta_8_">Twitter</a></p>
-    <p><a href="https://zenn.dev/shuntatakemoto">Zenn</a></p>
+
+    {#each externalNav as external}
+      <p key="{external.name}">
+        <a href="{external.path}">
+          {external.name}
+        </a>
+      </p>
+    {/each}
   </div>
 </main>
