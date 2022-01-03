@@ -34,11 +34,11 @@
     transform: none;
     filter: invert(0%);
   }
-  33% {
+  32% {
     transform: none;
     filter: invert(0%);
   }
-  33.3% {
+  33% {
     opacity: 1;
     transform: skewY(30deg) translate(16px, 12px);
     filter: invert(100%);
@@ -67,6 +67,29 @@
   42.6% {
     opacity: 1;
   }
+
+  53% {
+    transform: none;
+    filter: invert(0%);
+  }
+  53.3% {
+    opacity: 1;
+    transform: skewY(30deg) translate(16px, 12px);
+    filter: invert(100%);
+  }
+  53.6% {
+    opacity: 0;
+    transform: skewY(-20deg) translate(-20px, -20px);
+  }
+  53.9% {
+    opacity: 1;
+    transform: none;
+    filter: invert(0%);
+  }
+  60% {
+    opacity: 1;
+  }
+
   66% {
     transform: none;
     filter: invert(0%);
