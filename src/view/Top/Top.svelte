@@ -12,12 +12,9 @@ main {
 <script>
 import { link } from "svelte-spa-router";
 import { routesNav } from "../../constants/index";
-import Header from "../../components/Header.svelte";
-import Footer from "../../components/Footer.svelte";
 import ProfileImage from "../../components/ProfileImage.svelte";
 </script>
 
-<Header />
 <ProfileImage />
 <main>
   <div class="link-list">
@@ -33,4 +30,3 @@ import ProfileImage from "../../components/ProfileImage.svelte";
     <p><a href="https://zenn.dev/shuntatakemoto">Zenn</a></p>
   </div>
 </main>
-<Footer />
