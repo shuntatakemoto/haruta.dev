@@ -139,43 +139,43 @@ main h1 {
     alt=""
     class="love-image love-image1" />
   <img
-    src="/love-image2.jpg"
+    src="/love-image2.jpeg"
     width="180"
     height="180"
     alt=""
     class="love-image love-image2" />
   <img
-    src="/love-image3.jpg"
+    src="/love-image3.jpeg"
     width="180"
     height="180"
     alt=""
     class="love-image love-image3" />
   <img
-    src="/love-image4.jpg"
+    src="/love-image4.jpeg"
     width="180"
     height="180"
     alt=""
     class="love-image love-image4" />
   <img
-    src="/love-image5.jpg"
+    src="/love-image5.jpeg"
     width="180"
     height="180"
     alt=""
     class="love-image love-image5" />
   <img
-    src="/love-image6.jpg"
+    src="/love-image6.jpeg"
     width="180"
     height="180"
     alt=""
     class="love-image love-image6" />
   <img
-    src="/love-image7.jpg"
+    src="/love-image7.jpeg"
     width="180"
     height="180"
     alt=""
     class="love-image love-image7" />
   <img
-    src="/love-image8.jpg"
+    src="/love-image8.jpeg"
     width="180"
     height="180"
     alt=""
