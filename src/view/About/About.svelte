@@ -54,8 +54,8 @@ main h1 {
 
 @media screen and (max-width: 959px) {
   .love-image {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 8%;
     margin: 0 auto;
@@ -77,8 +77,8 @@ main h1 {
     grid-column: 2/16;
   }
   .love-image {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     object-fit: cover;
     border-radius: 8%;
     margin: 0 auto;
