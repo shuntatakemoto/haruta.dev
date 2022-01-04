@@ -51,6 +51,17 @@ main h1 {
   grid-row: 4/5;
   grid-column: 6/7;
 }
+
+@media screen and (max-width: 959px) {
+  .love-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8%;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 480px) {
   main {
     grid-template-columns: repeat(16, 1fr);
