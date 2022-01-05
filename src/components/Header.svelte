@@ -12,8 +12,12 @@
 }
 </style>
 
+<script>
+import { link } from "svelte-spa-router";
+</script>
+
 <header>
-  <a href="/" class="header-link">
+  <a href="/" use:link class="header-link">
     <h1 class="header-title">haruta-8.dev</h1>
   </a>
 </header>
