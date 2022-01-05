@@ -5,14 +5,14 @@ main {
 .link-list {
   list-style: none;
   font-size: x-large;
-  font-family: "Comic Sans MS", "Marker Felt";
+  font-family: 'Comic Sans MS', 'Marker Felt';
 }
 </style>
 
 <script>
-import { link } from "svelte-spa-router";
-import { routesNav, externalNav } from "../../constants/index";
-import ProfileImage from "../../components/ProfileImage.svelte";
+import { link } from 'svelte-spa-router';
+import { routesNav } from '../../constants/index';
+import ProfileImage from '../../components/ProfileImage.svelte';
 </script>
 
 <ProfileImage />
@@ -20,17 +20,15 @@ import ProfileImage from "../../components/ProfileImage.svelte";
   <div class="link-list">
     {#each routesNav as route}
       <p key="{route.name}">
-        <a href="{route.path}" use:link>
-          {route.name}
-        </a>
-      </p>
-    {/each}
-
-    {#each externalNav as external}
-      <p key="{external.name}">
-        <a href="{external.path}">
-          {external.name}
-        </a>
+        {#if route.route}
+          <a href="{route.path}" use:link>
+            {route.name}
+          </a>
+        {:else}
+          <a href="{route.path}">
+            {route.name}
+          </a>
+        {/if}
       </p>
     {/each}
   </div>
